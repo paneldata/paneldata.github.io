@@ -3,6 +3,4 @@ layout: default
 title: Data Sharing in Academia
 ---
 
-<div class="row">
-  Welcome!
-</div>
+Welcome!
