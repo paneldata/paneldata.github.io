@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Data Sharing in Academia
+title: Paneldata
 ---
 
 Welcome!
