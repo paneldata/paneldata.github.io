@@ -16,3 +16,4 @@ defaults:
       layout: "imports"
 kramdown:
   input: "GFM"
+  hard_wrap: false

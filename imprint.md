@@ -15,17 +15,17 @@ Contact: info@ddionrails.org
 
 **Organization and Address**
 
-SOEP im Deutschen Institut für Wirtschaftsforschung e.V. (DIW Berlin)\\
-Mohrenstraße 58\\
-10117 Berlin\\
-Phone +49-30-897 89-0\\
-Fax +49-30-897 89-200\\
+SOEP im Deutschen Institut für Wirtschaftsforschung e.V. (DIW Berlin)<br />
+Mohrenstraße 58<br />
+10117 Berlin<br />
+Phone +49-30-897 89-0<br />
+Fax +49-30-897 89-200<br />
 www.diw.de/en/soep
 
 **Executive Board**
 
-Prof. Marcel Fratzscher, Ph.D., President\\
-Prof. Dr. Gert G. Wagner, Executive Board Member\\
+Prof. Marcel Fratzscher, Ph.D., President<br />
+Prof. Dr. Gert G. Wagner, Executive Board Member<br />
 Dr. Cornelius Richter, Managing Director
 
 **Registration Court**
