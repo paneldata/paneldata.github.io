@@ -8,7 +8,7 @@ defaults:
       path: ""
     values:
       author: "Marcel Hebing"
-      layout: "ddionrails"
+      layout: "default"
   -
     scope:
       path: "imports"
