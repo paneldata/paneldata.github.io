@@ -1,6 +1,6 @@
 name: "About Paneldata"
 markdown: "kramdown"
-highlighter: true
+highlighter: "pygments"
 encoding: "utf-8"
 defaults:
   -

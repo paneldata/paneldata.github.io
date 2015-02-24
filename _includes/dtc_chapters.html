@@ -1,0 +1,12 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <a href="."><b>DTC Overview</b></a>
+  </div>
+  <div class="list-group">
+    {% for dtc_chapter in site.data.dtc_chapters %}
+    <a class="list-group-item" href="{{ dtc_chapter.name }}.html">
+      {{ dtc_chapter.title }}
+    </a>
+    {% endfor %}
+  </div>
+</div>
