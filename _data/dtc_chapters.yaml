@@ -1,0 +1,8 @@
+- name: content
+  title: Contents of the study
+- name: sample
+  title: Target Population and Samples
+- name: design
+  title: Survey Design
+- name: data-structure
+  title: Principles of data structure
