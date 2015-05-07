@@ -130,7 +130,7 @@ respondent and interviewer, will not change.
 
 Figure 5: Use of Different Interviewe Modes since 1984
 ![Use of Different Interviewe Modes since
-1984](https://raw.githubusercontent.com/paneldata/soep/gh-pages/dtc/graphics/mode.png)
+1984](graphics/mode.png)
 
 [Stata Code to create figure.](mode)
 

@@ -68,7 +68,7 @@ any given year.
 
 Figure 6: Cross-Sectional Data Files Included in Every Wave
 ![Cross-Sectional Data Files Included in Every
-Wave](https://github.com/ddionrails/soep-core/raw/master/graphics/Figure_6.jpg)
+Wave](graphics/Figure_6.jpg)
 
 Each new sample is integrated in the old scheme - hence, for Sample C (East
 Germans), the first wave of data gathered in 1990 is still labeled "G", as in
@@ -87,7 +87,7 @@ belong to some biography data, e.g. the data on the first job (**BIOJOB**, or
 the data on the fertility history (**BIOBIRTH**)).
 
 Figure 7: Longitudinal Data Files
-![Longitudinal Data Files](https://github.com/ddionrails/soep-core/raw/master/graphics/Figure_7.jpg)
+![Longitudinal Data Files](graphics/Figure_7.jpg)
 
 Because of the overall data structure with data on different observational
 levels, any analysis requires the combination of data using matching or
@@ -109,7 +109,7 @@ how they relate to cross-sectional and longitudinal data.
 
 Figure 8: Relationships between Cross-Sectional and Longitudinal Populations
 ![Relationships between Cross-Sectional and Longitudinal
-Populations](https://github.com/ddionrails/soep-core/raw/master/graphics/Figure_8.jpg)
+Populations](graphics/Figure_8.jpg)
 
 Variable names in the SOEPclassic data files follow basic conventions: First,
 there are datasets with "speaking" variable names, where the variable name
@@ -129,7 +129,7 @@ person questionnaire in wave "A" (1984), question 6.
 
 Figure 9: Variable Naming Conventions for $H, $P and $KIND
 ![Variable Naming Conventions for $H, $P and
-$KIND](https://github.com/ddionrails/soep-core/raw/master/graphics/Figure_9.jpg)
+$KIND](graphics/Figure_9.jpg)
 
 Table 5: Variable Names
 

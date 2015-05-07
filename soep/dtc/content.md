@@ -73,7 +73,7 @@ Table 1: Overview of Supplementary Questionnaires 1986-2012
 2014 | 31 | BE | Health (7th); Risk aversion (3rd); Globalization and transnationalization (2nd); Residential environment and neighborhood (6th)|
 
 Figure 1: Overview of Supplementary Topical Modules
-![Overview of Supplementary Topical Modules](https://raw.githubusercontent.com/paneldata/soep/gh-pages/dtc/graphics/topics_abb.png)
+![Overview of Supplementary Topical Modules](graphics/topics_abb.png)
 
 [R Code to create figure.](topics_abb.html)
 

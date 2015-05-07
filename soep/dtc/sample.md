@@ -185,7 +185,7 @@ Table 3: Changes to the Sample: Respondents and Households
 
 Figure 2: Old and New Households in the SOEP
 ![Old and New Households in the
-SOEP](https://raw.githubusercontent.com/paneldata/soep/gh-pages/dtc/graphics/old-new-hh.png)
+SOEP](graphics/old-new-hh.png)
 [R Code to create figure.](hh)
 
 ### Development of Sample Sizes
@@ -227,7 +227,7 @@ Table 4: Starting Sample Size of the SOEP Samples
 
 Figure 3: Cross-Sectional Development of Sample Size (Respondents): Samples A-K
 ![Cross-Sectional Development of Sample Size (Respondents): Samples
-A-K](https://raw.githubusercontent.com/paneldata/soep/gh-pages/dtc/graphics/crossdevel.png)
+A-K](graphics/crossdevel.png)
 
 [Stata Code to create figure.](crossdevel)
 
@@ -244,6 +244,6 @@ for the current year. Figure 4 illustrates the longitudinal development of first
 
 Figure 4: Longitudinal Development of the 1984 Population
 ![Longitudinal Development of the 1984
-Population](https://raw.githubusercontent.com/paneldata/soep/gh-pages/dtc/graphics/where2.png)
+Population](graphics/where2.png)
 
 [Stata Code to create figure.](soep_whereabout)
