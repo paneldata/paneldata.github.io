@@ -221,11 +221,14 @@ Table 4: Starting Sample Size of the SOEP Samples
 | H    	 | 2006 | 1,506 		   |  3,407 		 |  2,616 			 |  6.0                           	   |   623            |
 | I    	 | 2009 | 1,495 		   |  3,428 		 |  2,432 			 | 13.4                           	   |   620            |
 | J    	 | 2011 | 3,136 		   |  6,873 		 |  5,161 			 |  9.9                           	   | 1,147            |
+| L1     | 2010 | 2,074  		   |  7,939   		 |  3,770   		 |  6.7                                | 3,900            |
+| L2     | 2010 | 2,500  		   |  9,063   		 |  4,227   		 |  5.1                                | 4,611            |
+| L3     | 2011 |   924  		   |  3,645   		 |  1,487   		 |  4.2                                | 2,092            |
 | K    	 | 2012 | 1,526 		   |  3,286 		 |  2,473 			 |  9.2                           	   |   563            |
-| M    	 | 2013 | 2,723 		   |  8,522 		 |  4,964 			 | 17.8                           	   | 2,481            |
+| M1     | 2013 | 2,723  		   |  8,522   		 |  4,964   		 | 17.8                                | 2,481            |
 
 
-Figure 3: Cross-Sectional Development of Sample Size (Respondents): Samples A-K
+Figure 3: Cross-Sectional Development of Sample Size (Respondents)
 ![Cross-Sectional Development of Sample Size (Respondents): Samples
 A-K](graphics/crossdevel.png)
 
