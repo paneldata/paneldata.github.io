@@ -6,11 +6,11 @@ set mem 50m
 set more off
 
 * set the basics
-local waves "a b c d e f g h i j k l m n o p q r s t u v w x y z ba bb bc bd"
+local waves "a b c d e f g h i j k l m n o p q r s t u v w x y z ba bb bc bd be"
 local maxwave: word count `waves'
 local maxyear=1983+`maxwave' 
  
-use ~/data/soep/soep30/stata/ppfad.dta, clear
+use ~/data/soep/soep31/stata/ppfad.dta, clear
 
 * restrict to participants in 1984; desired n=16252
 keep if anetto>0
