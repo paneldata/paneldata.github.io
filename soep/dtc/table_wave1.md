@@ -9,10 +9,10 @@ layout: dtc
 
 clear all
 set mem 40m
-local waves "a b c d e f g h i j k l m n o p q r s t u v w x y z ba bb bc bd"
-local rownm "A B C D D1/D2 E F G H I J K L M"
+local waves "a b c d e f g h i j k l m n o p q r s t u v w x y z ba bb bc bd be"
+local rownm "A B C D D1/D2 E F G H I J K L1 L2 L3 M1"
 
-use *hhnr *netto psample letztbef using ~/data/soep/soep30/stata/ppfad.dta, clear
+use *hhnr *netto psample letztbef using ~/data/soep/soep31/stata/ppfad.dta, clear
 
 qui sum letztbef
 local last=r(max)

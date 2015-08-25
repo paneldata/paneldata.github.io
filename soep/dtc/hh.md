@@ -7,11 +7,12 @@ layout: dtc
 ## Author: Jan Goebel                                           ##
 ##################################################################
 
-soep.version <- 30
+soep.version <- 31
 soep.waves <- c(letters, paste0("b", letters))[1:soep.version]
 sample.shortnames <- c("A (1984)" , "B (1984)", "C (1990)", "D (1994/95)",
                        "E (1998)*", "F (2000)", "G (2002)", "H (2006)",
-                       "I (2009)*", "J (2011)", "K (2012)", "M (2013)")
+                       "I (2009)*", "J (2011)", "K (2012)",
+                       "L1 (2010)", "L2 (2010)", "L3 (2011)", "M1 (2013)")
 
 ## create long version of hpfad
 hpfad <- paste0("/home/jgoebel/data/soep-data/DATA/soep", soep.version, "_en/stata/hpfad.dta")
@@ -82,7 +83,7 @@ plot(seq(from = 1.5, to=0.5+ncol(old.new)*2, by=2), old.new[3,], type="p", pch=1
      xlab="", ylab="")
 box()
 axis(4, col=2)
-legend(13, 54, paste0("Share of \"new\" Households\n in (", 1983+soep.version, ", right scale in %)"),
+legend(15, 54, paste0("Share of \"new\" Households\n in (", 1983+soep.version, ", right scale in %)"),
        pch=19, col=2, cex=0.75)
 dev.off()
 system("cd ../graphics/; convert -rotate 90 old-new-hh.eps old-new-hh.png")
