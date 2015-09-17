@@ -37,7 +37,7 @@ The IAB-SOEP Migration Sample substantially increases the sample size of the SOE
 ## Data access
 
 
-At the SOEP Research Data Center: All SOEP users with a valid contract can order form  [SOEP Order](http://www.diw.de/SOEPorder) the data from the IAB-SOEP Migration Sample in the usual ways (SOEPhotline, [website](http://www.diw.de/SOEPorder)) without needing to sign any additional data distribution contracts. The dataset is available upon request for free and can be downloaded from a secure server with an individual password. For more information on the SOEP application process, see: [Access to the SOEP data] (http://www.diw.de/en/diw_02.c.222871.en/contract_management.html).
+At the SOEP Research Data Center: All SOEP users with a valid contract can order form  [SOEP Order](http://www.diw.de/SOEPorder) the data from the IAB-SOEP Migration Sample in the usual ways (SOEPhotline, [website](http://www.diw.de/SOEPorder)) without needing to sign any additional data distribution contracts. The dataset is available upon request for free and can be downloaded from a secure server with an individual password. For more information on the SOEP application process, see: [Access to the SOEP data](http://www.diw.de/en/diw_02.c.222871.en/contract_management.html).
 
 At the IAB Research Data Center: The normal application process at the [IAB RDC](http://fdz.iab.de/en/FDZ_Data_Access.aspx) should be followed.
 

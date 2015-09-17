@@ -24,7 +24,7 @@ Die Befragung zum Glückstrend erfolgte durch computergestützte telefonische In
 
 Der vollständige Datensatz gliedert sich in zwei datenschutzrechtlich getrennte Datensätze. Das Basismodul, enthält Angaben zur Sozidemographie des Befragten, die Sonntagsfrage "Welche Partei würden Sie wählen, wenn am kommenden Sonntag Bundestagswahl wäre?" sowie Angeben zum Befragungsdatum. Im Regionalmodul werden Angaben zur Gemeindegrößenklasse, der Gemeindekennziffer, dem Kreisschlüssel und zur BIK der Befragten bereitgestellt.
 Zugang zum Basismodul können Sie per MAIL unter soephotline@diw.de formlos beantragen. 
-Das datenschutzrechtlich sensible Regionalmodul kann derzeit nur am DIW Berlin an Gastarbeitsplätzen genutzt werden. Bitte kontaktieren Sie hierfür Herrn Jan Goebel per [Mail] (jgoebel@diw.de).
+Das datenschutzrechtlich sensible Regionalmodul kann derzeit nur am DIW Berlin an Gastarbeitsplätzen genutzt werden. Bitte kontaktieren Sie hierfür Herrn Jan Goebel per [Mail](jgoebel@diw.de).
 
 
 ## Data description   
@@ -43,9 +43,9 @@ region
 ## Related material
 
 SOEPpapers on Multidisciplinary Panel Data Research:
-"Zur subjektiven Lebenszufriedenheit der Deutschen im Kontext von tagesspezifischen und regionalen Einflussfaktoren" [PDF] (http://www.diw.de/documents/publikationen/73/diw_01.c.494982.de/diw_sp0726.pdf)
+"Zur subjektiven Lebenszufriedenheit der Deutschen im Kontext von tagesspezifischen und regionalen Einflussfaktoren" [PDF](http://www.diw.de/documents/publikationen/73/diw_01.c.494982.de/diw_sp0726.pdf)
 Die Codebooks der drei Datensätze sind hier einzusehen:   
 
-1. Codebook des Basismoduls als [PDF] (files/SOEP-Glueckstrend_Basismodul.pdf)   
-2. Codebook des Regiomoduls als [PDF]  (files/SOEP-Glueckstrend_Regiomodul.pdf)   
-3. Codebook des Wettermoduls als [PDF] (files/SOEP-Glueckstrend_Wettermodul.pdf)
+1. Codebook des Basismoduls als [PDF](files/SOEP-Glueckstrend_Basismodul.pdf)   
+2. Codebook des Regiomoduls als [PDF](files/SOEP-Glueckstrend_Regiomodul.pdf)   
+3. Codebook des Wettermoduls als [PDF](files/SOEP-Glueckstrend_Wettermodul.pdf)

@@ -13,7 +13,7 @@
 * Boeckenhoff et al., 2013. The Socio-Economic Module of the Berlin Aging Study II (SOEP-BASE): Description, Structure, and Questionnaire, SOEPpapers on Multidisciplinary Panel Data Research 568.
 * **Persistent identifier (e.g. DOI):** NA
 * **Investigators/authors:** Gert G. Wagner; Martin Kroh
-* **URL:**[BASE-II] (https://www.base2.mpg.de/en)|    
+* **URL:**[BASE-II](https://www.base2.mpg.de/en)|    
 
 ## Study Info
 
@@ -57,4 +57,4 @@ The variable names are documented in the annotated questionnaires.
 Anke Böckenhoff, Denise Saßenroth, Martin Kroh, Thomas Siedler, Peter Eibich and Gert G. Wagner (2013):
 The Socio-Economic Module of the Berlin Aging Study II (SOEP-BASE): Description, Structure, and Questionnaire. [SOEPpapers 568 Berlin](http://gosset7.diw.de/documents/publikationen/73/diw_01.c.424996.de/diw_sp0568.pdf)   
 
-TNS Infratest Sozialforschung (2015): SOEP-RS BASE II 2008-2014 – Erhebungsinstrumente Berliner Altersstudie II. [SOEP Survey Papers 269] (http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0269.pdf)
+TNS Infratest Sozialforschung (2015): SOEP-RS BASE II 2008-2014 – Erhebungsinstrumente Berliner Altersstudie II. [SOEP Survey Papers 269](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0269.pdf)

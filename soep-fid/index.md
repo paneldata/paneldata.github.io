@@ -50,7 +50,7 @@ For households in the Screening Samples, for which the eligibility could be dete
 
 ## Questionnaires
 
-The questionnaires which are all only in German,  can be found under [Website,Dokumentaion FID] (http://www.diw.de/de/diw_01.c.405871.de/fid_dokumentation.html).
+The questionnaires which are all only in German,  can be found under [Website,Dokumentaion FID](http://www.diw.de/de/diw_01.c.405871.de/fid_dokumentation.html).
 
 ## Data access
 
@@ -69,4 +69,4 @@ Schröder, M., Siegers, R., & Spiess, C. K. (2013). Familien in Deutschland-FiD.
 
 More detailed documentation is available online at:
 
-http://www.diw.de/de/diw_01.c.402598.de/familien_in_deutschland_fid.html or [PDF] (http://www.diw.de/documents/dokumentenarchiv/17/diw_01.c.368261.de/fid_in_k%C3%BCrze.pdf)
+http://www.diw.de/de/diw_01.c.402598.de/familien_in_deutschland_fid.html or [PDF](http://www.diw.de/documents/dokumentenarchiv/17/diw_01.c.368261.de/fid_in_k%C3%BCrze.pdf)

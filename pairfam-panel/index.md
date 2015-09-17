@@ -24,7 +24,7 @@ The German Family Panel pairfam (“Panel Analysis of Intimate Relationships and
 
 Data are collected via CAPI/CASI from a nationwide random sample of more than 12,000 German residents of the three birth cohorts 1971-73, 1981-83, 1991-93. The study implements a multi-actor design involving partners, parents, and children of the main respondents (alternating data collection via PAPI or CAPI instruments). 
 Panel waves are surveyed yearly: the first wave was fielded in 2008/2009.
-A detailed cumulative [field report] (http://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/TechnicalPapers/TP01_Field-Report_pairfam6.0.pdf) is available. 
+A detailed cumulative [field report](http://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/TechnicalPapers/TP01_Field-Report_pairfam6.0.pdf) is available. 
 
 ## Data access
 
