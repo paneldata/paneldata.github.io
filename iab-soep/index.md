@@ -5,7 +5,6 @@
 
 ## Citation
 
-
 - **Title:** IAB-SOEP Migration Sample 2013
 - **DOI:** 10.5684/soep.iab-soep-mig.2013
 - Publication date: 17.10.2014

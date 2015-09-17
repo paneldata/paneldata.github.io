@@ -5,7 +5,7 @@
 
 ![soep-k2id logo](logos/soep-k2id.png)
 
-##Citation
+## Citation
 
 * **Title:** SOEP-K2ID
 * Early Childhood Education and Care Quality in the Socio-Economic Panel
@@ -14,7 +14,7 @@
 * **Collaborators:** Yvonne Anders (Freie Universität Berlin) and David Richter (DIW Berlin)
 * **URL:** http://www.diw.de/en/diw_01.c.430776.en/forschung_beratung/early_childhood_education_and_care_quality_in_the_socio_economic_panel.html
 
-##Study info
+## Study info
 
 The SOEP-K2ID project aims at     
 * investigating effects of ECEC quality on children’s socio-emotional development,    
@@ -24,7 +24,7 @@ The SOEP-K2ID project aims at
 
 The three-year project launched in September 2013 is funded by the Jacobs Foundation. The project collected new data on the quality of ECEC institutions, that children below school age in Socio-Economic Panel Study attend. In a first step, the project surveyed parents of all SOEP children below school age to investigate the parental decision-making process and subjective evaluations with respect to ECEC quality of the institutions attended by their children. In a second step, the project collected indicators of structural, orientation and process quality from directors and class teachers of the ECEC institutions to capture the quality of interactions between children and teaching staff, activities, learning environment, and teacher orientations. By combining institutional information on the educational context with individual and household data collected in the SOEP, this new data set will allow researchers to examine associations with children’s development first during early childhood and school years and subsequently until adulthood.
 
-##Method
+## Method
 
 Target sample: all children under school age living in a SOEP household in 2013 (2014 for SOEP-M sample).
 
@@ -36,13 +36,13 @@ Instruments:
 * PAPI Questionnaires sent to SOEP-M sample parents from November 2014
 * PAPI Questionnaires sent to SOEP-M sample ECEC institutions from February 2015
 
-##Data access
+## Data access
 
 Data will be made available to all SOEP-Users after completion of the project. The exact date is to be decided. For further information on data access or possibilities for collaborations, please contact     Pia Schober (pschober@diw.de).
 
-##Data description
+## Data description
 
-##Study units
+## Study units
 
 * Parents
 * Children
@@ -50,5 +50,5 @@ Data will be made available to all SOEP-Users after completion of the project. T
 * ECEC institutions - director
 * ECEC institutions - primary group educators
 
-##Other material and notes
+## Other material and notes
 

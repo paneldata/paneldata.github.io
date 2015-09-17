@@ -51,6 +51,7 @@ Release includes anchor, partner, children, parents, and parenting data for each
 |4|8073|-|2732|-|3350|1084|1576|**16815**|
 |5|7248|-|2529|-|3546|1390|2022|**16735**| 
 |6|6574|-|2357|-|3043|1450|2251|**15821**|
+
 ### Number of variables
 
 |Wave|anchor pairfam|anchor demodiff |partner pairfam|partner demodiff|   parents  |children|parenting|total|
@@ -63,7 +64,7 @@ Release includes anchor, partner, children, parents, and parenting data for each
 |6|4333|-|290|-|378|209|62|**5272**|
 Wave 6 includes 11 generated *datasets*
 
-##Documentation
+## Documentation
 
 ## Study units
 [Data Manuel](http://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Manuals/Data_Manual_pairfam_5.0.pdf)
