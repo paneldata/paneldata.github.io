@@ -4,11 +4,8 @@ title: "FAQ"
 FAQs about the SOEP
 ===================
 
-[Allgemeine Fragen zum SOEP Datensatz](http://about.paneldata.org/soep/faq/allgemein.html)
-------------------------------------
+[Allgemeine Fragen zum SOEP Datensatz](allgemein.html)
 
-[Fragen zu Variablen im SOEP Datensatz](http://about.paneldata.org/soep/faq/variablen.html)
--------------------------------------
+[Fragen zu Variablen im SOEP Datensatz](variablen.html)
 
-[Fragen zu Methoden im SOEP Datensatz](http://about.paneldata.org/soep/faq/methoden.html)
-------------------------------------  
+[Fragen zu Methoden im SOEP Datensatz](methoden.html)
