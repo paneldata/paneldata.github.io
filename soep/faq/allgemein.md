@@ -158,3 +158,6 @@ Weitergehende temporäre oder anhaltende Abspaltungen und Rückzüge sind anhand
 Ein Sonderfall besteht, wenn Personen aus zwei Ursprungs-Haushalten zusammenziehen -- diese sogenannten Casematches sind ebenfalls dokumentiert - hierbei bleibt bei den Personen die Case-ID erhalten (so kann es -selten- zu Haushalten mit derselben aktuellen Haushaltsnummer, aber unterschiedlichen Case-IDs kommen) - die Haushaltsangaben müssen dann unter einem Case abgelegt sein. 
 
 *Ansprechpartner: Peter Krause*
+  
+  
+[Zurück zum Index](index.html)

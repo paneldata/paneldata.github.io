@@ -324,3 +324,6 @@ Variable: D11106$$ und H11101$$ in $PEQUIV
 Variableninhalt: modifizierte OECD-Äquivalenzskala
 
 *Ansprechpartner: Markus Grabka*
+  
+  
+[Zurück zum Index](index.html)
