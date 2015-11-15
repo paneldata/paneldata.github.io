@@ -19,26 +19,12 @@ Dies funktioniert auf Quer- und Längsschnittdatenebene.
 
 *Ansprechpartner: Marcel Hebing*  
     
-	
-**Werden zusätzlich tiefer gegliederte Regionaldaten zur Verfügung gestellt?**  
-  
-Ausführliche Informationen dazu unter http://www.diw.de/de/diw_02.c.222519.de/regionaldaten.html  
-   
-*Ansprechpartner:*   
-  
-			
-**Sind Bundesländer repräsentativ auswertbar?**  
-   
-Ausführliche Informationen dazu unter http://www.diw.de/de/diw_02.c.222519.de/regionaldaten.html  
-   
-*Ansprechpartner:*  
 
-   
 **Was sind generierte Variablen und wann greife ich am besten auf sie zurück?** 
   
 Generierte Variablen dienen ebenso wie Status-Variablen der Vereinfachung der Arbeit mit den SOEP-Daten. 
 Bei ihrer Generierung fließen jeweils spezifische Annahmen ein, die Sie der Dokumentation entnehmen können. 
-Schauen Sie die Dokumentation für die Files $PGEN und $HGEN an. [verlinken!!!!!!!!!!!]
+Schauen Sie die Dokumentation für die Files [$PGEN](http://www.diw.de/documents/dokumentenarchiv/17/diw_01.c.60055.de/pgen.pdf) und [$HGEN](http://www.diw.de/documents/dokumentenarchiv/17/diw_01.c.60053.de/hpfad.467493.pdf) an.
 
 *Ansprechpartner:*    
  
