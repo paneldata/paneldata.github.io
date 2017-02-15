@@ -26,7 +26,7 @@ www.diw.de/en/soep
 
 Prof. Marcel Fratzscher, Ph.D., President<br />
 Prof. Dr. Gert G. Wagner, Executive Board Member<br />
-Dr. Cornelius Richter, Managing Director
+Angelica E. Röhr, Managing Director
 
 **Registration Court**
 
