@@ -1,16 +1,15 @@
-* Version SOEP 30, Mathis Schröder & Moritz Mannschreck & Jan Goebel
+* Version SOEP 32, Mathis Schröder & Moritz Mannschreck & Jan Goebel
 * produces figure "Longitudinal Development of the 1984 Population"
 
 clear all
-set mem 50m
 set more off
 
 * set the basics
-local waves "a b c d e f g h i j k l m n o p q r s t u v w x y z ba bb bc bd be"
+local waves "a b c d e f g h i j k l m n o p q r s t u v w x y z ba bb bc bd be bf"
 local maxwave: word count `waves'
 local maxyear=1983+`maxwave' 
  
-use ~/data/soep/soep31/stata/ppfad.dta, clear
+use ~/data/soep/soep.v32-gen/pre/ppfad.dta, clear
 
 * restrict to participants in 1984; desired n=16252
 keep if anetto>0
@@ -25,8 +24,8 @@ qui foreach i in `waves' {
 	replace `i'net=1 if (`i'netto>=91 & `i'netto<=93)					
 	replace `i'net=2 if (`i'netto>=97 & `i'netto<=99)										
 	replace `i'net=3 if (`i'netto>=20 & `i'netto<=29)										
-	replace `i'net=4 if (`i'netto>=10 & `i'netto<=19)  | (`i'netto>=32 & `i'netto<=39)  // some other qnnaire in 32-39
-	replace `i'net=5 if (`i'netto>=80 & `i'netto<=89)	| inlist(`i'netto,31,61,62) 	   // only luecke filled out for last year
+	replace `i'net=4 if (`i'netto>=10 & `i'netto<=19)  | (`i'netto>=32 & `i'netto<=39)  /* some other qnnaire in 32-39 */
+	replace `i'net=5 if (`i'netto>=80 & `i'netto<=89)	| inlist(`i'netto,31,61,62) 	   /* only luecke filled out for last year */
 	replace `i'net=6 if `i'netto==-2 | `i'netto==30
 	replace `i'net=7 if (`i'netto!=-2 & ~inrange(`i'netto,29,39)) & ~inrange(`i'net,-2,5)
 	lab values `i'net net

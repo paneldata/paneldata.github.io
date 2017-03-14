@@ -7,15 +7,16 @@ layout: dtc
 ## Author: Jan Goebel                                           ##
 ##################################################################
 
-soep.version <- 31
+soep.version <- 32
 soep.waves <- c(letters, paste0("b", letters))[1:soep.version]
 sample.shortnames <- c("A (1984)" , "B (1984)", "C (1990)", "D (1994/95)",
                        "E (1998)*", "F (2000)", "G (2002)", "H (2006)",
                        "I (2009)*", "J (2011)", "K (2012)",
-                       "L1 (2010)", "L2 (2010)", "L3 (2011)", "M1 (2013)")
+                       "L1 (2010)", "L2 (2010)", "L3 (2011)",
+                       "M1 (2013)", "M2 (2015)")
 
 ## create long version of hpfad
-hpfad <- paste0("/home/jgoebel/data/soep-data/DATA/soep", soep.version, "_en/stata/hpfad.dta")
+hpfad <- paste0("/home/jgoebel/data/soep-data/DATA/soep", soep.version, "_de/stata/hpfad.dta")
 require(foreign)
 hpfad <- droplevels(read.dta(hpfad))
 hpfad <- hpfad[, c("hhnr", "hsample", paste0(soep.waves, "hhnr"), paste0(soep.waves, "hnetto"))]
@@ -44,16 +45,14 @@ for (i in seq(along.with = new.samples)) {
             hpfadl$hnetto %in% c("[1] Successful HH Interview", "[1] Realisiertes Haushaltsinterview"))
 
     old.new.hh[names(new.samples)[i], paste("new hh", 1983+soep.version)] <-
-        sum(tmp$syear   >   new.samples[i]    &
-            tmp$syear   <=  1983+soep.version &
-            tmp$hsample == names(new.samples)[i] &
-            !(tmp$cid == tmp$hid))    
+        sum(! tmp$hid[tmp$hsample == names(new.samples)[i] & tmp$syear > new.samples[i]] %in%
+              hpfadl$cid[hpfadl$hsample == names(new.samples)[i] & hpfadl$syear == new.samples[i]])
 }
      
 ################################################
 ## FIX for Sample D starting in 1994 AND 1995 ##
 ################################################
-is.sample.d <- names(new.samples) %in% c("[4] D Zuwanderer 1984-93", "[4] D Immigrant 1984-1993", "[4] D 84-93 Immigrant (West)")
+is.sample.d <- names(new.samples) %in% c("[4] D 1994/5 Migration (1984-92/94 West)", "[4] D Zuwanderer 1984-93", "[4] D Immigrant 1984-1993", "[4] D 84-93 Immigrant (West)")
 stopifnot(sum(is.sample.d) == 1)
 old.new.hh[is.sample.d, "first wave hh"] <-
     sum(hpfadl$syear  %in% c(new.samples[is.sample.d], new.samples[is.sample.d]+1) &
@@ -77,13 +76,13 @@ dimnames(old.new)[[2]] <- sample.shortnames
 postscript("../graphics/old-new-hh.eps", horizontal = TRUE)
 par(mar=c(7,4,2,4), las=2)
 barplot(old.new[1:2,], beside=TRUE, horiz=FALSE, ylim=c(0,7000),
-        legend.text=c("First Wave Households", paste0("New Households in ", 1983+soep.version)))
+        legend.text=c("First Wave Households", paste0("New Households in ", 1983+soep.version, " since start of sample")))
 par(new=TRUE)
 plot(seq(from = 1.5, to=0.5+ncol(old.new)*2, by=2), old.new[3,], type="p", pch=19, col=2, axes=FALSE,
      xlab="", ylab="")
 box()
 axis(4, col=2)
-legend(15, 54, paste0("Share of \"new\" Households\n in (", 1983+soep.version, ", right scale in %)"),
+legend(13, 54, paste0("Share of \"new\" Households\n in ", 1983+soep.version, " (right scale in %)"),
        pch=19, col=2, cex=0.75)
 dev.off()
 system("cd ../graphics/; convert -rotate 90 old-new-hh.eps old-new-hh.png")

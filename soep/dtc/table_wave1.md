@@ -2,17 +2,16 @@
 layout: dtc
 ---
 ```stata
-* Version SOEP 29, Mathis Schroeder, Jan Goebel
+* Version SOEP 32, Mathis Schroeder, Jan Goebel
 * creates Table "Starting Sample Size of SOEP-Samples"
 * For new years without new samples, this should run with a new "ppfad" and and the addition of a new wave letter in local "waves".
 * For new samples, local "rownm" needs to be extended accordingly.
 
 clear all
-set mem 40m
-local waves "a b c d e f g h i j k l m n o p q r s t u v w x y z ba bb bc bd be"
-local rownm "A B C D D1/D2 E F G H I J K L1 L2 L3 M1"
+local waves "a b c d e f g h i j k l m n o p q r s t u v w x y z ba bb bc bd be bf"
+local rownm "A B C D1 D1/D2 E F G H I J K L1 L2 L3 M1 M2"
 
-use *hhnr *netto psample letztbef using ~/data/soep/soep31/stata/ppfad.dta, clear
+use *hhnr *netto psample letztbef using ~/data/soep/soep.v32-gen/pre/ppfad.dta, clear
 
 qui sum letztbef
 local last=r(max)
