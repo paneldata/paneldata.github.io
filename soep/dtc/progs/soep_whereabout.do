@@ -1,15 +1,15 @@
-* Version SOEP 32, Mathis Schröder & Moritz Mannschreck & Jan Goebel
+* Version SOEP 33, Mathis Schröder & Moritz Mannschreck & Jan Goebel
 * produces figure "Longitudinal Development of the 1984 Population"
 
 clear all
 set more off
 
 * set the basics
-local waves "a b c d e f g h i j k l m n o p q r s t u v w x y z ba bb bc bd be bf"
+local waves "a b c d e f g h i j k l m n o p q r s t u v w x y z ba bb bc bd be bf bg"
 local maxwave: word count `waves'
 local maxyear=1983+`maxwave' 
  
-use ~/data/soep/soep.v32-gen/pre/ppfad.dta, clear
+use /mnt/rdc-prod/distribution/soep-core/soep.v33/stata_en/ppfad.dta, clear
 
 * restrict to participants in 1984; desired n=16252
 keep if anetto>0

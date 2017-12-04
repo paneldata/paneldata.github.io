@@ -1,8 +1,8 @@
-* Version SOEP 32, Mathis Schroeder, Jan Goebel
+* Version SOEP 33, Mathis Schroeder, Jan Goebel
 * produces figure "Cross-Sectional Development of Sample Size"
 
 clear all
-use *netto psample letztbef using /mnt/rdc-gen/consolidated/soep-core/soep.v33/consolidated1/ppfad.dta
+use *netto psample letztbef using /mnt/rdc-prod/distribution/soep-core/soep.v33/stata_en/ppfad.dta
 
 qui sum letztbef
 local last=r(max)
@@ -33,29 +33,29 @@ forvalues yr=1984/`last' {
 }
 matrix rownames countme=`rownm'
 
-local colnm "A B C D E F G H I J K L1 L2 L3 M1 M2 M34"
+local colnm "A B C D E F G H I J K L1 L2 L3 M1 M2 M3 M4"
 matrix colnames countme=`colnm' year
 
 svmat countme, names(col)
-keep A-M34 year
+keep A-M4 year
 dropmiss, obs force
 
 
 * note: set scheme(s2color) to scheme(s2mono) for black and white if necessary. 
 
 #d;
-graph bar (first) A B C D E F G H I J K L1 L2 L3 M1 M2 M34, over(year, label(angle(ninety))) stack 
+graph bar (first) A B C D E F G H I J K L1 L2 L3 M1 M2 M3 M4, over(year, label(angle(ninety))) stack 
    bar( 1, lcolor(black) lpattern(solid)) bar( 2, lcolor(black) lpattern(solid)) bar( 3, lcolor(black) lpattern(solid)) 
    bar( 4, lcolor(black) lpattern(solid)) bar( 5, lcolor(black) lpattern(solid)) bar( 6, lcolor(black) lpattern(solid)) 
    bar( 7, lcolor(black) lpattern(solid)) bar( 8, lcolor(black) lpattern(solid)) bar( 9, lcolor(black) lpattern(solid)) 
    bar(10, lcolor(black) lpattern(solid)) bar(11, lcolor(black) lpattern(solid)) bar(12, lcolor(black) lpattern(solid))
    bar(13, lcolor(black) lpattern(solid)) bar(14, lcolor(black) lpattern(solid)) bar(15, lcolor(black) lpattern(solid))
-   bar(16, lcolor(black) lpattern(solid)) bar(17, lcolor(black) lpattern(solid))
+   bar(16, lcolor(black) lpattern(solid)) bar(17, lcolor(black) lpattern(solid)) bar(18, lcolor(black) lpattern(solid))
 	ylabel(, angle(zero)) 
 	legend(order(1 "Sample A" 2 "Sample B" 3 "Sample C" 4 "Sample D1/D2" 5 "Sample E" 
 	             6 "Sample F" 7 "Sample G" 8 "Sample H" 9 "Sample I" 10 "Sample J"
                      11 "Sample K" 12 "Sample L1" 13 "Sample L2" 14 "Sample L3" 15 "Sample M1"
-                     16 "Sample M2" 17 "Sample M3/M4") 
+                     16 "Sample M2" 17 "Sample M3" 18 "Sample M4") 
                cols(6) region(lcolor(white)) position(12) symxsize(small)) 
         scheme(s2color) xsize(20) ysize(13) graphregion(fcolor(white));
 #d cr	

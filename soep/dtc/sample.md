@@ -227,6 +227,8 @@ Table 4: Starting Sample Size of the SOEP Samples
 | L3   	 | 2011 |   924   		   |  3,645  		 |  1,487  			 |  4.2                            	   | 2,092            |
 | M1   	 | 2013 | 2,723   		   |  8,522  		 |  4,964  			 | 17.8                            	   | 2,481            |
 | M2   	 | 2015 | 1,096   		   |  3,048  		 |  1,711  			 | 19.3                            	   |   927            |
+| M3     | 2016 | 1,775   		   |  4,823   		 |  2,351  			 | 22.0                                | 1,808            |
+| M4     | 2016 | 1,779   		   |  7,297   		 |  2,465  			 | 27.1                                | 3,915	          |
 
 
 Figure 3: Cross-Sectional Development of Sample Size (Respondents)
