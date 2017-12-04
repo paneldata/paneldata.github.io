@@ -3,16 +3,16 @@
 ## Author: Jan Goebel                                           ##
 ##################################################################
 
-soep.version <- 32
+soep.version <- 33
 soep.waves <- c(letters, paste0("b", letters))[1:soep.version]
 sample.shortnames <- c("A (1984)" , "B (1984)", "C (1990)", "D (1994/95)",
                        "E (1998)*", "F (2000)", "G (2002)", "H (2006)",
                        "I (2009)*", "J (2011)", "K (2012)",
                        "L1 (2010)", "L2 (2010)", "L3 (2011)",
-                       "M1 (2013)", "M2 (2015)")
+                       "M1 (2013)", "M2 (2015)", "M3 (2016)", "M4 (2016)")
 
 ## create long version of hpfad
-hpfad <- paste0("/home/jgoebel/data/soep-data/DATA/soep", soep.version, "_de/stata/hpfad.dta")
+hpfad <- paste0("/mnt/rdc-prod/distribution/soep-core/soep.v", soep.version, "/stata_en/hpfad.dta")
 require(foreign)
 hpfad <- droplevels(read.dta(hpfad))
 hpfad <- hpfad[, c("hhnr", "hsample", paste0(soep.waves, "hhnr"), paste0(soep.waves, "hnetto"))]
@@ -48,7 +48,7 @@ for (i in seq(along.with = new.samples)) {
 ################################################
 ## FIX for Sample D starting in 1994 AND 1995 ##
 ################################################
-is.sample.d <- names(new.samples) %in% c("[4] D 1994/5 Migration (1984-92/94 West)", "[4] D Zuwanderer 1984-93", "[4] D Immigrant 1984-1993", "[4] D 84-93 Immigrant (West)")
+is.sample.d <- names(new.samples) %in% c("[4] D 1994/5 Migration (1984-92/94 West)", "[4] D Zuwanderer 1984-93", "[4] D Immigrant 1984-1993", "[4] D 84-93 Immigrant (West)", "[4] D 1994/5 Migration (1984-1994, West)")
 stopifnot(sum(is.sample.d) == 1)
 old.new.hh[is.sample.d, "first wave hh"] <-
     sum(hpfadl$syear  %in% c(new.samples[is.sample.d], new.samples[is.sample.d]+1) &
