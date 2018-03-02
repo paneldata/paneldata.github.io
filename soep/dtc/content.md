@@ -42,35 +42,37 @@ Table 1: Overview of Supplementary Questionnaires 1986-2012
 
 | Year | Wave number | Wave letter | Topic |
 |------|-------------|-------------|-------|
-| 1986 | 3 | C | Residential environment and neighborhood |
-| 1987 | 4 | D | Social security, transition to retirement |
-| 1988 | 5 | E | Household finances and wealth |
-| 1989 | 6 | F | Further occupational training and professional qualifications |
-| 1990 | 7 | G | Time use and time preferences; Labor market and subjective indicators |
-| 1991 | 8 | H | Family and social networks|
-| 1992 | 9 | I | Social security (2nd measurement)|
-| 1993 | 10 | J | Further occupational training (2nd)|
-| 1994 | 11 | K | Residential environment and neighborhood (2nd); Working conditions; Expectations for the future|
-1995 | 12 | L | Time use (2nd)|
-1996 | 13 | M | Family and social networks (2nd)|
-1997 | 14 | N | Social security (3rd)|
-1998 | 15 | O | Transportation and energy use; Time use (3rd)|
-1999 | 16 | P | Residential environment and neighborhood (3rd); Expectations for the future (2nd)|
-2000 | 17 | Q | Further occupational training (3rd)|
-2001 | 18 | R | Family and social networks (3rd)|
-2002 | 19 | S | Wealth and assets (2nd); Social security (4th); Health (SF12, BMI)|
-2003 | 20 | T | Transportation and energy use (2nd); Trust; Time use (4th)|
-2004 | 21 | U | Residential environment and neighborhood (4th); Further occupational training (4th); Risk aversion; Health (2nd)|
-2005 | 22 | V | Expectations for the future (3rd); Big Five; Reciprocity|
-2006 | 23 | W | Family and social networks (4th); Working conditions (ERI); Health (3rd); Grip strength|
-2007 | 24 | X | Wealth and assets (3rd); Social security (5th)|
-2008 | 25 | Y | Further occupational training (5th); Health (4th); Grip strength (2nd); Trust (2nd); Time use (5th)|
-2009 | 26 | Z | Residential environment and neighborhood (5th); Risk aversion (2nd); Big Five (2nd); Globalization and transnationalization; Diseases|
-2010 | 27 | BA | Consumption and saving; Reciprocity (2nd); Health (5th); Grip strength (3rd)|
-2011 | 28 | BB | Family and social networks (5th); Working conditions (ERI) (2nd); Diseases (2nd)|
-2012 | 29 | BC | Wealth and assets (4th); Social security (6th); Health (6th); Grip strength (4th)|
-2013 | 30 | BD | Big Five (3rd); Trust (3rd); Loneliness; Working conditions (ERI) (3rd); Diseases (3rd)|
-2014 | 31 | BE | Health (7th); Risk aversion (3rd); Globalization and transnationalization (2nd); Residential environment and neighborhood (6th)|
+| 1986 | 3  	     | C  	   | Residential environment and neighborhood |
+| 1987 | 4  	     | D  	   | Social security, transition to retirement |
+| 1988 | 5  	     | E  	   | Household finances and wealth |
+| 1989 | 6  	     | F  	   | Further occupational training and professional qualifications |
+| 1990 | 7  	     | G  	   | Time use and time preferences; Labor market and subjective indicators |
+| 1991 | 8  	     | H  	   | Family and social networks|
+| 1992 | 9  	     | I  	   | Social security (2nd measurement)|
+| 1993 | 10 	     | J  	   | Further occupational training (2nd)|
+| 1994 | 11 	     | K  	   | Residential environment and neighborhood (2nd); Working conditions; Expectations for the future|
+| 1995 | 12 	     | L  	   | Time use (2nd)|
+| 1996 | 13 	     | M  	   | Family and social networks (2nd)|
+| 1997 | 14 	     | N  	   | Social security (3rd)|
+| 1998 | 15 	     | O  	   | Transportation and energy use; Time use (3rd)|
+| 1999 | 16 	     | P  	   | Residential environment and neighborhood (3rd); Expectations for the future (2nd)|
+| 2000 | 17 	     | Q  	   | Further occupational training (3rd)|
+| 2001 | 18 	     | R  	   | Family and social networks (3rd)| Working conditions (ERI)|
+| 2002 | 19 	     | S  	   | Wealth and assets (2nd); Social security (4th); Health (SF12, BMI)|
+| 2003 | 20 	     | T  	   | Transportation and energy use (2nd); Trust; Time use (4th)|
+| 2004 | 21 	     | U  	   | Residential environment and neighborhood (4th); Further occupational training (4th); Risk aversion; Health (2nd)|
+| 2005 | 22 	     | V  	   | Expectations for the future (3rd); Big Five; Reciprocity|
+| 2006 | 23 	     | W  	   | Family and social networks (4th); Working conditions (ERI) (2nd); Health (3rd); Grip strength|
+| 2007 | 24 	     | X  	   | Wealth and assets (3rd); Social security (5th)|
+| 2008 | 25 	     | Y  	   | Further occupational training (5th); Health (4th); Grip strength (2nd); Trust (2nd); Time use (5th)|
+| 2009 | 26 	     | Z  	   | Residential environment and neighborhood (5th); Risk aversion (2nd); Big Five (2nd); Globalization and transnationalization; Diseases|
+| 2010 | 27 	     | BA 	   | Consumption and saving; Reciprocity (2nd); Health (5th); Grip strength (3rd)|
+| 2011 | 28 	     | BB 	   | Family and social networks (5th); Working conditions (ERI) (3rd); Diseases (2nd)|
+| 2012 | 29 	     | BC 	   | Wealth and assets (4th); Social security (6th); Health (6th); Grip strength (4th)|
+| 2013 | 30 	     | BD 	   | Big Five (3rd); Trust (3rd); Loneliness; Diseases (3rd)|
+| 2014 | 31 	     | BE 	   | Health (7th); Risk aversion (3rd); Globalization and transnationalization (2nd); Residential environment and neighborhood (6th); Grip strength (5th)|
+| 2015 | 32 	     | BF 	   | Minimum wages; Reciprocity (3rd); Diseases (4th); Transportation and energy use (3rd)|
+| 2016 | 33 	     | BG 	   | Minimum wages (2nd); Health (8th); Family and social networks (6th); Working conditions (ERI) (4th); LGBT; Grip strength (6th)|
 
 Figure 1: Overview of Supplementary Topical Modules
 ![Overview of Supplementary Topical Modules](graphics/topics_abb.png)
