@@ -74,11 +74,6 @@ Table 1: Overview of Supplementary Questionnaires 1986-2012
 | 2015 | 32 	     | BF 	   | Minimum wages; Reciprocity (3rd); Diseases (4th); Transportation and energy use (3rd)|
 | 2016 | 33 	     | BG 	   | Minimum wages (2nd); Health (8th); Family and social networks (6th); Working conditions (ERI) (4th); LGBT; Grip strength (6th)|
 
-Figure 1: Overview of Supplementary Topical Modules
-![Overview of Supplementary Topical Modules](graphics/topics_abb.png)
-
-[R Code to create figure.](topics_abb.html)
-
 
 Since the year 2000, youths (turning 17 during the survey year) form a
 new group of respondents with a specific questionnaire suited to their
