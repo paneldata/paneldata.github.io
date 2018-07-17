@@ -2,7 +2,7 @@
 * produces figure "Cross-Sectional Development of Sample Size"
 
 clear all
-use *netto psample letztbef using /mnt/rdc-prod/distribution/soep-core/soep.v33/stata_en/ppfad.dta
+use *netto psample letztbef using /mnt/DIW/rdc-prod/distribution/soep-core/soep.v33/stata_en/ppfad.dta
 
 qui sum letztbef
 local last=r(max)
@@ -63,6 +63,54 @@ graph bar (first) A B C D E F G H I J K L1 L2 L3 M1 M2 M3 M4, over(year, label(a
 *graph export ../graphics/crossdevel.ps,  replace
 graph export ../graphics/crossdevel.eps, replace
 shell convert ../graphics/crossdevel.eps  ../graphics/crossdevel.png
+
+set linesize 200 
+order year 
+list , table clean
+
+
+
+/* Householde */
+
+
+clear all
+use *netto hsample  using /mnt/DIW/rdc-prod/distribution/soep-core/soep.v33/stata_en/hpfad.dta
+
+local last=2016
+dis `last'
+qui tab hsample
+local cols=r(r)
+levelsof hsample, local(samps)
+
+matrix define countme=J(`last'-1984+1,`cols'+1,.)
+local row=1
+qui foreach wv in a b c d e f g h i j k l m n o p q r s t u v w x y z ba bb bc bd be bf bg {
+   forvalues i=1/`cols' {
+       local smp : word `i' of `samps'
+       count if `wv'hnetto == 1 & hsample==`smp'
+       if r(N)>0 {
+           matrix countme[`row',`i']=r(N)   
+       }	 
+   }
+   local row=`row'+1
+}
+
+local rownm " "
+local row=1
+forvalues yr=1984/`last' {
+   matrix countme[`row',`cols'+1]=`yr'   
+   local rownm="`rownm'" + " " + string(`yr')
+   local row=`row'+1
+}
+matrix rownames countme=`rownm'
+
+local colnm "A B C D E F G H I J K L1 L2 L3 M1 M2 M3 M4"
+matrix colnames countme=`colnm' year
+
+svmat countme, names(col)
+keep A-M4 year
+dropmiss, obs force
+
 
 set linesize 200 
 order year 
